@@ -1,0 +1,116 @@
+/*Custom css*/
+
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.login_form {
+	margin-top: 130px;
+}
+
+/*Title*/
+.title1 {
+	color: white;
+    /*text-shadow: 1px -1px #4caf50;*/
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.title{
+	color:white;
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.login_form h2 {
+	font-size: 48px !important;
+}
+
+/*Inputs*/
+.input-field input, .input-field label{
+	color: white !important;
+}
+.input-field input {
+	border-color: white !important;
+}
+.input-field input:focus {
+	border-color: white !important;
+	box-shadow: none !important;
+}
+.register_div_input input{
+	border:none !important;
+	margin-bottom: 0px !important;
+	height: 40px !important;
+}
+
+/*Buttons*/
+#btn_login {
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+#btn_login, #btn_register {
+    background-color: #26734db8;
+    text-shadow: 1px 1px #9e9e9e;
+}
+#btn_login:hover, #btn_register:hover {
+	background-color: rgba(70, 68, 68, 0.65);
+}
+.modal-footer button {
+	color: white;
+}
+
+/*Icons*/
+.material-icons {
+	color: white;
+	top: 0.25rem !important;
+}
+.active {
+	color: #3aa23e !important;
+}
+.register_icon {
+	color: #2b772e !important;
+	font-size: 40px !important;
+}
+
+
+
+/*Modal*/
+#modal1 {
+	background-color: rgba(245, 239, 239, 0.18) !important;
+	width: 35%;
+    box-shadow: 1px 2px 15px 8px #f0e6e629;
+    overflow: hidden;
+}
+.modal-footer {
+	background-color: transparent !important;
+}
+
+/*Div*/
+.modal-content .row {
+	margin-bottom: 0px;
+}
+.register_div_input {
+    border: 1px solid #3aa23e;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 0px !important;
+}
+
+#login-forma{
+	background-image: url(../images/background11.jpg);
+	background-position: center; 
+	background-repeat: no-repeat;
+	display: none;
+
+}
+
+/*Responsive*/
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 35px !important;
+  }
+  .login_form h2 {
+	font-size: 35px !important;
+}
+}
